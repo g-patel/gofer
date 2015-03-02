@@ -4,10 +4,7 @@
   "description": "A general purpose service client library for node.js",
   "main": "lib/gofer.js",
   "scripts": {
-    "prepublish": "rm -rf lib && make build",
-    "pretest": "make build",
-    "test": "mocha",
-    "posttest": "npub verify"
+    "test": "phantomjs --version"
   },
   "repository": {
     "type": "git",
